@@ -1,0 +1,41 @@
+﻿{
+    "customers": [
+        {
+            "actorId": 1,
+            "name": "Elijah Wood",
+            "birthDate": "January 28, 1981",
+            "country": "USA"
+        },
+        {
+            "actorId": 2,
+            "name": "Ian McKellen",
+            "birthDate": "May 25, 1939",
+            "country": "UK"
+        },
+        {
+            "actorId": 3,
+            "name": "Orlando Bloom",
+            "birthDate": "January 13, 1977",
+            "country": "UK"
+        },
+        {
+            "actorId": 4,
+            "name": "Viggo Mortensen",
+            "birthDate": "October 20, 1958",
+            "country": "USA"
+        },
+        {
+            "actorId": 5,
+            "name": "Johnny Depp",
+            "birthDate": "June 9, 1963",
+            "country": "USA"
+        },
+        {
+            "actorId": 6,
+            "name": "Keira Knightley",
+            "birthDate": "March 26, 1985",
+            "country": "UK"
+        }
+    ]
+
+}
