@@ -13,7 +13,7 @@ namespace ACM.BL
     {
         #region FindCustomers
         /// <summary>
-        /// Finds customers by name.
+        /// Find customers by a portion of the name.
         /// </summary>
         /// <param name="customerName">Portion of the last or first name.</param>
         /// <returns></returns>
@@ -31,7 +31,7 @@ namespace ACM.BL
         }
 
         /// <summary>
-        /// Finds customers by Id.
+        /// Find customers by Id.
         /// </summary>
         /// <param name="customerId">Id of the customer.</param>
         /// <returns></returns>
