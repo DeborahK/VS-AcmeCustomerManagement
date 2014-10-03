@@ -7,7 +7,7 @@ using System.Linq;
 namespace ACM.BL
 {
     /// <summary>
-    /// Manages a list of customers
+    /// Manages the repository for customers.
     /// </summary>
     public class CustomerRepository : BoListBase<Customer>
     {
@@ -73,9 +73,11 @@ namespace ACM.BL
                 // Populate the associated invoices
                 //TODO: Go to Definition vs Peek Definition
                 customerInstance.InvoiceList = InvoiceRepository.Retrieve(customerInstance.CustomerId);
-
                 customerList.Add(customerInstance);
             }
+
+            // new code
+            customerList.Add(null);
 
            return customerList;
         }
