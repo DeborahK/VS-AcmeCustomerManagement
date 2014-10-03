@@ -24,7 +24,7 @@ namespace ACM.BL
             if (!string.IsNullOrWhiteSpace(customerName))
             {
                 foundCustomers = this.Where(c => c.LastName.Contains(customerName) ||
-                                            c.FirstName.Contains(customerName)).ToList();
+                                                 c.FirstName.Contains(customerName)).ToList();
             }
 
             return foundCustomers;
