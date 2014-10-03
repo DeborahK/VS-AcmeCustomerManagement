@@ -73,6 +73,7 @@ namespace ACM.BL
                 // Populate the associated invoices
                 //TODO: Go to Definition vs Peek Definition
                 customerInstance.InvoiceList = InvoiceRepository.Retrieve(customerInstance.CustomerId);
+
                 customerList.Add(customerInstance);
             }
 
