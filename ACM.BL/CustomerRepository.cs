@@ -76,9 +76,6 @@ namespace ACM.BL
                 customerList.Add(customerInstance);
             }
 
-            // new code
-            customerList.Add(null);
-
            return customerList;
         }
         #endregion
