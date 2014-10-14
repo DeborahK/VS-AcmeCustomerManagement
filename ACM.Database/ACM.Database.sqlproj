@@ -120,6 +120,7 @@
   <ItemGroup>
     <None Include="Reference Data\CustomerType.data.sql" />
     <None Include="ACM.Database.publish.xml" />
+    <None Include="Reference Data\CustomerType.merge.data.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Reference Data\Script.PostDeployment.sql" />
