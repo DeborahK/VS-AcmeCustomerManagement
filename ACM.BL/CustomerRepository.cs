@@ -58,7 +58,6 @@ namespace ACM.BL
             CustomerRepository customerList = new CustomerRepository();
 
             DataTable dt = Dac.ExecuteDataTable("CustomerRetrieve");
-            //TODO: Bing Developer Assistant ("DataTable")
 
             // Process each customer row
             foreach (DataRow dr in dt.Rows)
